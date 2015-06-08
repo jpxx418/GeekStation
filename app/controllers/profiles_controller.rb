@@ -14,7 +14,7 @@ class ProfilesController < ApplicationController
 			flash[:success] = "Profile Created!"
 			redirect_to user_path(params[:user_id])
 		else
-			render actoin: :new
+			render action: :new
 		end
 	end
 
@@ -36,7 +36,7 @@ class ProfilesController < ApplicationController
 
 	private
 	def profile_params
-		params.require(:profile).permit(:first_name, :last_name, :job_title, :phone_number, :contact_email, :description)
+		params.require(:profile).permit(:first_name, :last_name, :avatar, :job_title, :phone_number, :contact_email, :description)
 	end
 
 	def only_current_user
