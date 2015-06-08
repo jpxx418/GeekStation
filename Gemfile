@@ -46,6 +46,8 @@ gem 'stripe', '~> 1.21.0'
 gem 'figaro', '~> 1.1.1'
 # Use paperclip for image uploads
 gem 'paperclip', '~> 4.2.1'
+# Use Autoprefixer with Bootstrap to add browser vendor prefixes automatically
+gem 'autoprefixer-rails', '~> 5.2.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
