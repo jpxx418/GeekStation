@@ -1,7 +1,7 @@
 == README
 
 Subscription-based web application
-http://jpengxiang.com
+http://radiant-refuge-3915.herokuapp.com/
 
 Things you may want to cover:
 
